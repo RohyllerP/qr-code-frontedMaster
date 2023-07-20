@@ -14,7 +14,7 @@
 body{
     background-color:  var(--light-gray);
 }
-.contenedor{
+.conten{
     display: grid;
     place-items: center;
     height: 100vh;
@@ -31,7 +31,7 @@ body{
     height: 20%;
     border-radius: 15px;
 }
-.contenedor-p p{
+.contenedor-p h1{
     font-size: 20px;
     font-weight: 700;
     color: var(--dark-blue);
@@ -53,12 +53,17 @@ body{
     .box{
         width: 100%;
     }
-    .contenedor-p p{
+    .contenedor-p,.contenedor-span{
+        padding: 0px 5px;
+    }
+    .contenedor-p h1{
         font-size: 17px;
-        padding-left: 10px;
+        padding-left: 9px;
+        padding-right: 10px;
     }
     .contenedor-span p{
-        font-size: 14px;
+        font-size: 16px;
+        padding-left: 4px;
     }
     
 }
